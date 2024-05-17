@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Teller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nutrition Teller</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#log">Log Nutrition</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to the Nutrition Tracker</h2>
+            <p>Track your daily nutritional intake easily.</p>
+        </section>
+        <section id="log">
+            <h2>Log Your Nutrition</h2>
+            <form id="nutrition-form">
+                <label for="food">Food Item:</label>
+                <input type="text" id="food" name="food" required>
+                <label for="calories">Calories:</label>
+                <input type="number" id="calories" name="calories" required>
+                <button type="submit">Log Nutrition</button>
+            </form>
+            <div id="log-results">
+                <h3>Logged Items:</h3>
+                <ul id="nutrition-list"></ul>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This application helps you track your daily nutritional intake.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions, please contact us at nutritiontracker@example.com.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nutrition Tracker</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
